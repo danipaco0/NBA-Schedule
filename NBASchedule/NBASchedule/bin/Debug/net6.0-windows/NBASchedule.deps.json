@@ -1,0 +1,108 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NBASchedule/1.0.0": {
+        "dependencies": {
+          "Decider": "1.0.4",
+          "Google.OrTools": "9.4.1874",
+          "Newtonsoft.Json": "13.0.2"
+        },
+        "runtime": {
+          "NBASchedule.dll": {}
+        }
+      },
+      "Decider/1.0.4": {
+        "runtime": {
+          "lib/net6.0/Csp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "Google.OrTools/9.4.1874": {
+        "dependencies": {
+          "Google.OrTools.runtime.win-x64": "9.4.1874",
+          "Google.Protobuf": "3.19.4"
+        },
+        "runtime": {
+          "lib/net6.0/Google.OrTools.dll": {
+            "assemblyVersion": "9.4.1874.0",
+            "fileVersion": "9.4.1874.0"
+          }
+        }
+      },
+      "Google.OrTools.runtime.win-x64/9.4.1874": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/google-ortools-native.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.19.4": {
+        "runtime": {
+          "lib/net5.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.19.4.0",
+            "fileVersion": "3.19.4.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.2.27524"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NBASchedule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Decider/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YHXxq6AWNvV8ZIUxQZrmws8d7XEBPet5vldPDLe1VqjHLVsiO+BsJtn3YSc1YCtWZGaRM1U69W67IrBL7aGslg==",
+      "path": "decider/1.0.4",
+      "hashPath": "decider.1.0.4.nupkg.sha512"
+    },
+    "Google.OrTools/9.4.1874": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5QZasDPiVZgzcskKqECG3oRwqcGtDV83RAogFglltKJ1FjUbVt2ipQDjccYjTYlqDRxm7nwUTyGaEnd4j6XygQ==",
+      "path": "google.ortools/9.4.1874",
+      "hashPath": "google.ortools.9.4.1874.nupkg.sha512"
+    },
+    "Google.OrTools.runtime.win-x64/9.4.1874": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-57rJNREXyPGhVTl7HFEdJdNcAW83nZZMD4Ot1Nn/mPduYNGs809ZgUWbumhZNpol/6aWqQK60/90vkMRJKOX3w==",
+      "path": "google.ortools.runtime.win-x64/9.4.1874",
+      "hashPath": "google.ortools.runtime.win-x64.9.4.1874.nupkg.sha512"
+    },
+    "Google.Protobuf/3.19.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fd07/ykL4O4FhqrZIELm5lmiyOHfdPg9+o+hWr6tcfRdS7tHXnImg/2wtogLzlW2eEmr0J7j6ZrZvaWOLiJbxQ==",
+      "path": "google.protobuf/3.19.4",
+      "hashPath": "google.protobuf.3.19.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "path": "newtonsoft.json/13.0.2",
+      "hashPath": "newtonsoft.json.13.0.2.nupkg.sha512"
+    }
+  }
+}
